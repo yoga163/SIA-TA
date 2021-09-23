@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-5 col-sm-6">
             <div class="container setting ">
                 <div class="card ">                
                     <div class="card card-body">
@@ -82,7 +82,10 @@ export default {
 </script>
 <style>
 .setting{
-    margin-left:220px !important;
+    margin-left:200px !important;
     padding-top: 25px;
+}
+.row{
+    margin-right: 0px !important;
 }
 </style>
